@@ -57,7 +57,7 @@
                 <h3 class="font-medium">Adoption — Moka</h3>
                 <p class="text-sm text-slate-600">Sarah a laissé un message concernant Moka.</p>
                 <a href="{{ route('notifications.index') }}"
-                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-xl hover:bg-blue-900 transition hover:underline">Consulter
+                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-lg hover:bg-blue-900 transition hover:underline">Consulter
                     la page
                     d’adoption</a>
             </article>
@@ -66,7 +66,7 @@
                 <h3 class="font-medium">Nouveau message — Demande d'accueil</h3>
                 <p class="text-sm text-slate-600">Un visiteur souhaite adopter un chaton.</p>
                 <a href="{{ route('notifications.index') }}"
-                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-xl hover:bg-blue-900 transition hover:underline">Voir
+                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-lg hover:bg-blue-900 transition hover:underline">Voir
                     la demande</a>
             </article>
 
@@ -77,7 +77,7 @@
 
             <p>
                 <a href="/{{ route('notifications.index') }}"
-                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-xl hover:bg-blue-900 transition hover:underline">Voir
+                   class="mt-3 block w-full text-center bg-blue-950 text-white text-sm px-4 py-2 rounded-lg hover:bg-blue-900 transition hover:underline">Voir
                     toutes les
                     notifications</a>
             </p>

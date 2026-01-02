@@ -25,7 +25,7 @@
             <li><a class="px-3 py-2 rounded-md hover:bg-refuge-ink/10 transition"
                    href="{{ route('animals.index') }}">Animaux</a>
             </li>
-            <li><a class="px-3 py-2 rounded-md hover:bg-refuge-ink/10 transition" href="/fiches.index">Avant
+            <li><a class="px-3 py-2 rounded-md hover:bg-refuge-ink/10 transition" href="{{ route('before_adoption.index') }}">Avant
                     d'adopter</a></li>
         </ul>
     </nav>
